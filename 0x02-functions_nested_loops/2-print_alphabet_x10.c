@@ -12,7 +12,14 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-		print_alphabet();
-		i++;
+		char ch[28] = "abcdefghijklmnopqrstuvwxyz\n";
+		int i = 0;
+
+		while (ch[i] != '\0')
+		{
+			_putchar(ch[i]);
+			i++;
+		}
 	}
+	i++;
 }
