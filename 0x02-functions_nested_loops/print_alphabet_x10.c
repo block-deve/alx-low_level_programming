@@ -1,11 +1,18 @@
 #include "main.h"
 /**
- * main - print 10x lower case alphabet.
+ * print_alphabet_x10 - writes lower case alphabet 10X to stdo
  *
- * Return: Always 0.
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
-	return (0);
+	int i = 0;
+
+	while (i < 10)
+	{
+		print_alphabet();
+		i++;
+	}
 }
