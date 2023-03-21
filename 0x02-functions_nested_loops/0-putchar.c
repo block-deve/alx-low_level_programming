@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - print _putchar to STDO
+ * main - print to STDO
  *
  * Return: Always 0.
  */
-int main (void)
+int main(void)
 {
 	char ch[10] = "_putchar\n";
 	int i = 0;
