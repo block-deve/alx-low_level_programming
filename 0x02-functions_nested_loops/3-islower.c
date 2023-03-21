@@ -2,9 +2,10 @@
 /**
  *_islower - check a char if lower case.
  *
- * Return: Always 0.
- *@c: The character to print
+ * Return: Always 0 or 1
+ *@c: ASCCI value to check
  */
+
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
