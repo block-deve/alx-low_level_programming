@@ -17,10 +17,9 @@ void print_alphabet_x10(void)
 
 		while (ch[j] != '\0')
 		{
-			_putchar(ch[i]);
+			_putchar(ch[j]);
+			j++;
 		}
-		j++;
 	}
 	i++;
-	break
 }
