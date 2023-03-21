@@ -1,11 +1,19 @@
-#include "main.h"
 /**
- * main - check the code
+ * print_alphabet - writes lower case alphabet to stdo
  *
- * Return: Always 0.
+ *
+ * Return: void
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char ch[28] = "abcdefghijklmnopqrstuvwxyz\n";
+	int i = 0;
+
+	while (ch[i] != '\0')
+	{
+		_putchar(ch[i]);
+		i++;
+        }
+
 }
