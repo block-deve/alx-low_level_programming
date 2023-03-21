@@ -1,5 +1,5 @@
-#ifndef(main.h)
-#define(main.h)
+#ifndef main
+#define main
 #include <unistd.h>
 /**
  * _putchar - writes the character c to stdout
