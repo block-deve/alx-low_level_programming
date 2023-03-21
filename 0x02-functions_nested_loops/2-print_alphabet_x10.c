@@ -15,11 +15,11 @@ void print_alphabet_x10(void)
 		char ch[28] = "abcdefghijklmnopqrstuvwxyz\n";
 		int j = 0;
 
-		while (ch[j] != '\0' && j = i)
+		while (ch[j] != '\0')
 		{
 			_putchar(ch[j]);
+			j++;
 		}
-		j++;
-	}
 	i++;
+	}
 }
