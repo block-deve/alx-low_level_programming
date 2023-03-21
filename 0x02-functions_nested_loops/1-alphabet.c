@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_alphabet - writes lower case alphabet to stdo
  *
