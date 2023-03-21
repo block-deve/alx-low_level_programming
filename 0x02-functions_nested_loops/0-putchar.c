@@ -4,9 +4,9 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main (void)
 {
-	char  ch[10] = "_putchar\n";
+	char ch[10] = "_putchar\n";
 	int i = 0;
 
 	while (ch[i] != '\0')
