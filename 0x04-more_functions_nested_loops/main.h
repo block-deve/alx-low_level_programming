@@ -3,7 +3,7 @@
 
 int _putchar(char c);
 
-void print_numbers(int n);
+void print_numbers(void);
 void print_triangle(int size);
 void print_square(int size);
 void print_diagonal(int n);
