@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 *print_rev - print string in revers
-*@str: a variable pionter
+*
+*@s: a variable pionter to an array
 *
 *Return: void
 */
